@@ -1,0 +1,8 @@
+CLASSPATH=.:../antlr.jar
+alias antlr4 = java -jar antlr4
+alias grun = java org.antlr.v4.runtime.misc.TestRig
+alias grun = java org.antlr.v4.gui.TestRig
+
+
+alias antlr4='CLASSPATH=.:../antlr.jar java -jar ../antlr4'
+alias grun='CLASSPATH=.:../antlr.jar java org.antlr.v4.gui.TestRig'
