@@ -4,5 +4,9 @@ alias grun = java org.antlr.v4.runtime.misc.TestRig
 alias grun = java org.antlr.v4.gui.TestRig
 
 
-alias antlr4='CLASSPATH=.:../antlr.jar java -jar ../antlr4'
+alias antlr4='CLASSPATH=.:../antlr.jar java -jar ../antlr.jar'
 alias grun='CLASSPATH=.:../antlr.jar java org.antlr.v4.gui.TestRig'
+
+
+compile:
+CLASSPATH=.:../antlr.jar javac *.java
