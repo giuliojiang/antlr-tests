@@ -6,6 +6,7 @@ init: stat+ ;
 
 stat: expr NEWLINE              # printExpr
     | ID '=' expr NEWLINE       # assign
+    | 'clear' ID                # clear
     | NEWLINE                   # blank
     ;
 
